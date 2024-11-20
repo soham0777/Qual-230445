@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 
 
-##Usage
+## Usage
 Running the Object Detection on Images
 You can run the object detection model on images to detect vehicles using the following command:
 
@@ -53,7 +53,7 @@ Copy code
 python detect_real_time.py --camera <camera_id_or_url>
 Replace <camera_id_or_url> with the camera ID or URL (e.g., for an IP camera).
 
-##Data Preparation
+## Data Preparation
 The model needs a dataset of images containing vehicles. The dataset should be labeled for object detection, meaning each vehicle in the image is annotated with a bounding box.
 
 Data Format
@@ -63,7 +63,7 @@ YOLO Format: Each vehicle is labeled with a class and bounding box coordinates.
 COCO Format: The dataset includes detailed information about each image (metadata) along with the bounding box annotations.
 If you have raw images, use annotation tools like LabelImg or MakeSense.ai to annotate your dataset.
 
-##Model Training
+## Model Training
 To train the object detection model, follow these steps:
 
 Prepare your training and validation datasets.
@@ -74,7 +74,7 @@ Copy code
 python train.py --train_dir <path_to_train_data> --val_dir <path_to_val_data> --epochs <num_epochs>
 You can experiment with different pre-trained models (e.g., YOLO, Faster R-CNN, SSD) depending on your framework.
 
-##Evaluation
+## Evaluation
 After training the model, evaluate its performance on a test dataset using the following command:
 
 bash
@@ -82,13 +82,13 @@ Copy code
 python evaluate.py --test_dir <path_to_test_data> --weights <path_to_trained_model_weights>
 This will generate performance metrics like:
 
-##Precision
+## Precision
 Recall
 F1-Score
 mAP (Mean Average Precision)
 You can visualize the results and model's performance using confusion matrices or precision-recall curves.
 
-##Features
+## Features
 Real-time vehicle detection: Detect vehicles in video feeds or webcam streams.
 High accuracy: Trained using state-of-the-art object detection algorithms.
 Customizable: You can fine-tune the model with your own dataset.
@@ -96,7 +96,7 @@ Live Monitoring: Supports integration with IP cameras or video streams.
 Contributing
 Contributions are welcome! Feel free to fork the repository, create a branch, and submit a pull request.
 
-##Steps to Contribute:
+## Steps to Contribute:
 Fork this repository
 Clone your forked repository
 Create a new branch for your feature
