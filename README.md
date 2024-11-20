@@ -12,7 +12,6 @@ This project is designed for vehicle surveillance using object detection algorit
 - [Evaluation](#evaluation)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
