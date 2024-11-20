@@ -123,3 +123,9 @@ Please ensure that your code passes the tests and is well-documented.
 Scripts: The detect_objects.py, detect_real_time.py, train.py, and evaluate.py files should contain the appropriate code for their respective functions, such as model inference, real-time detection, training, and evaluation.
 
 Customization: Depending on the specific details of your project, such as the object detection model used, data formats, or output types, you might need to modify or extend the README file.
+
+### references
+
+YOLO (You Only Look Once): YOLO is one of the fastest object detection models. It provides real-time object detection and is widely used in surveillance and autonomous driving systems. The repository includes instructions for setting up and training YOLO models.
+
+https://universe.roboflow.com/object-detection-dp5wa/yolo-v8-indian-roads-dataset
